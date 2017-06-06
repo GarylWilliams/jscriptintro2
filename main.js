@@ -3,39 +3,39 @@
 // 1.
 // What does `givenName` equal right now?
 var givenName;
-// A:
+// A: undefined
 
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
-// A:
+// A: Tim
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:
+// A: Tim 
 
 
 // 4.
 // What is `greeting` set to?
 var greeting = "Hello, how are you? " + givenName;
-// A:
-
+// A: 
+Hello, how are you Tim 
 
 // 5.
 // What is `math` set to?
 var high = 50;
 var low  = 10;
 var math = high - low;
-// A:
+// A: 40 
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
+// A: 45
 
 
 // 7.
@@ -45,13 +45,14 @@ math = high - "5";
 var born = 1984;
 var today = 2017;
 // A:
-
+var age = today - born; 
+return "Tim is " + age " years old"; 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-var yourName;
-var instructorName;
+var yourName = "Gary";
+var instructorName = "Brentice";
 
 
 // 9.
@@ -62,13 +63,13 @@ var instructorName;
 // This statement should read correctly
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
 
-
+return statement; 
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-var myNumber;
-var myString;
-var myBoolean;
+var myNumber = 53;
+var myString = "Every good boy does fine";
+var myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 var myUndefined;
 // A:
@@ -78,47 +79,47 @@ var myUndefined;
 
 // 11.
 var x = (false == 0);
-// A.
+// A. true 
 
 
 // 12.
 var y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 var z = (0 == "");
-// A.
+// A. true 
 
 
 // 14.
 var a = (null == null);
-// A.
+// A. false
 
 
 // 25.
 var b = (undefined == undefined);
-// A.
+// A. true 
 
 
 // 16.
 var c = (undefined == null);
-// A.
+// A. false
 
 
 // 17.
 var d = (null == false);
-// A.
+// A. false
 
 
 // 18.
 var e = (NaN == null);
-// A.
+// A. false
 
 
 // 19.
 var f = (NaN == NaN);
-// A.
+// A. false
 
 
 // 20.
