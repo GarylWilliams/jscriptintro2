@@ -127,7 +127,7 @@ var f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 var thirsty = true;
-
+if (thirsty)
 {
   console.log("I'm parched!");
 } else {
@@ -144,7 +144,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: false
 
 
 // 22.
@@ -153,7 +153,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: false
 
 
 // 23.
@@ -166,7 +166,7 @@ if(x){
 	console.log("False!");
 }
 // A:
-
+false
 
 // 24.
 if(false){
@@ -175,7 +175,7 @@ if(false){
 	console.log("False!");
 }
 // A:
-
+    false   
 
 // 25.
 if(-5 && 5){
@@ -183,7 +183,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 26.
@@ -192,7 +192,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 27.
@@ -201,7 +201,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 28.
@@ -210,7 +210,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 29.
@@ -219,7 +219,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true 
 
 
 // 30.
